@@ -1,8 +1,8 @@
 var rounds = prompt("How many rounds");
 var compChoice = math.floor(Math.random() * 3);
-var r = parseInt(rounds)
-for(let i = 0; <= r; i++)
-var player = prompt("Pick one rock / paper / sicssors ");
+var r = parseInt(rounds);
+for(let i = 0; <= r; i++);
+var player = prompt("Pick one rock / paper / sicssors");
 
 
 if(compChoice = 0){
@@ -36,17 +36,17 @@ function compare( choice1, choice2){
         }
     if(choice1 === "rock"){
         if(choice2 === "paper"){
-            alert("player loses")
+            alert("player loses");
         }
     }
     if(choice1 === "scissors"){
         if(choice2 === "paper"){
-            alert("player wins")
+            alert("player wins");
         }
     }
     if(choice1 === "scissors"){
         if(choice2 === "rock"){
-            alert("player loses")
+            alert("player loses");
         }
     }
 } 
